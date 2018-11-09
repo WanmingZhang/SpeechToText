@@ -24,12 +24,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arX-gc-9QY">
-                                <rect key="frame" x="150" y="125" width="75" height="30"/>
+                                <rect key="frame" x="169.5" y="125" width="36" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dCz-n6-Gey"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                <state key="normal" title="Start/Stop"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="seG-Ms-YwR" eventType="touchUpInside" id="O0O-oB-EQk"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is this what you said ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKU-am-lkA">
                                 <rect key="frame" x="16" y="195" width="343" height="21"/>
